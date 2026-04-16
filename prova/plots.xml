@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plots>
+  <plot id="3" filename="plot_external_assembly" color_by="material" type="slice" basis="xy">
+    <pixels>1000 1000</pixels>
+    <origin>0 0 0</origin>
+    <width>61.4506 61.4506</width>
+    <color id="1" rgb="255 165 0"/>
+    <color id="4" rgb="0 128 0"/>
+    <color id="5" rgb="128 128 128"/>
+    <color id="6" rgb="128 0 128"/>
+    <color id="7" rgb="173 216 230"/>
+  </plot>
+</plots>

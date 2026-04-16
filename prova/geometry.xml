@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="40" material="1" region="-35" universe="22"/>
+  <cell id="41" material="6" region="35 -36" universe="22"/>
+  <cell id="42" material="5" region="36 -37" universe="22"/>
+  <cell id="43" material="7" region="37" universe="22"/>
+  <cell id="44" material="7" universe="24"/>
+  <cell id="45" fill="23" region="-40 -38 39" universe="25"/>
+  <lattice id="23">
+    <pitch>1.2618 1.2618</pitch>
+    <outer>24</outer>
+    <dimension>17 17</dimension>
+    <lower_left>-10.7253 -10.7253</lower_left>
+    <universes>
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 </universes>
+  </lattice>
+  <surface id="35" type="z-cylinder" coeffs="0.0 0.0 0.4095"/>
+  <surface id="36" type="z-cylinder" coeffs="0.0 0.0 0.418"/>
+  <surface id="37" type="z-cylinder" coeffs="0.0 0.0 0.475"/>
+  <surface id="38" type="z-plane" boundary="vacuum" coeffs="100.0"/>
+  <surface id="39" type="z-plane" boundary="vacuum" coeffs="-100.0"/>
+  <surface id="40" type="z-cylinder" boundary="vacuum" coeffs="0.0 0.0 30.7253"/>
+</geometry>

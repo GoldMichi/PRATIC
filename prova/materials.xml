@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="3" name="uo2_external" depletable="true" temperature="623.15">
+    <density value="10.1711" units="g/cm3"/>
+    <nuclide name="U235" ao="0.05"/>
+    <nuclide name="U234" ao="0.00044"/>
+    <nuclide name="U236" ao="0.00023"/>
+    <nuclide name="U238" ao="0.94933"/>
+    <nuclide name="O16" ao="2"/>
+  </material>
+  <material id="6" name="gap" temperature="600">
+    <density value="0.00024044" units="atom/b-cm"/>
+    <nuclide name="He3" ao="4.8089e-10"/>
+    <nuclide name="He4" ao="0.00024044"/>
+  </material>
+  <material id="7" name="water" temperature="573.15">
+    <density value="0.72683" units="g/cm3"/>
+    <nuclide name="H1" ao="1.99968852"/>
+    <nuclide name="H2" ao="0.00031148"/>
+    <nuclide name="O16" ao="1"/>
+    <sab name="c_H_in_H2O"/>
+  </material>
+  <material id="15" name="uo2_central(0.92)-gadolinium(0.08)" depletable="true" temperature="623.15">
+    <density value="9.8003" units="g/cm3"/>
+    <nuclide name="U235" ao="0.007317290519805263"/>
+    <nuclide name="U234" ao="6.146524036636422e-05"/>
+    <nuclide name="U236" ao="3.2196078287143154e-05"/>
+    <nuclide name="U238" ao="0.2852806689537517"/>
+    <nuclide name="O16" ao="0.6724726256011128"/>
+    <nuclide name="Gd152" ao="6.967150721335348e-05"/>
+    <nuclide name="Gd154" ao="0.0007594194286255529"/>
+    <nuclide name="Gd155" ao="0.0051556915337881565"/>
+    <nuclide name="Gd156" ao="0.007130878763286728"/>
+    <nuclide name="Gd157" ao="0.00545179543944491"/>
+    <nuclide name="Gd158" ao="0.008653201195898503"/>
+    <nuclide name="Gd160" ao="0.007615095738419534"/>
+  </material>
+  <material id="16" name="zirconium(0.98115)-stagno(0.0145)-Ferro(0.0021)-Oxygen(0.00125)-cromo(0.001)" temperature="573.15">
+    <density value="6.5215" units="g/cm3"/>
+    <nuclide name="Zr90" ao="0.5024870303416937"/>
+    <nuclide name="Zr91" ao="0.1095802620103752"/>
+    <nuclide name="Zr92" ao="0.16749567678056462"/>
+    <nuclide name="Zr94" ao="0.16974197448665962"/>
+    <nuclide name="Zr96" ao="0.02734623294376565"/>
+    <nuclide name="Sn112" ao="0.00010758791659247814"/>
+    <nuclide name="Sn114" ao="7.320414943405729e-05"/>
+    <nuclide name="Sn115" ao="3.7711228496332544e-05"/>
+    <nuclide name="Sn116" ao="0.0016127095951078683"/>
+    <nuclide name="Sn117" ao="0.0008518301025053939"/>
+    <nuclide name="Sn118" ao="0.002686370453474042"/>
+    <nuclide name="Sn119" ao="0.0009527630964220488"/>
+    <nuclide name="Sn120" ao="0.0036136230129721007"/>
+    <nuclide name="Sn122" ao="0.0005135381998177049"/>
+    <nuclide name="Sn124" ao="0.0006422000382169572"/>
+    <nuclide name="Fe54" ao="0.00019958590978853117"/>
+    <nuclide name="Fe56" ao="0.003133071953248398"/>
+    <nuclide name="Fe57" ao="7.235629475481566e-05"/>
+    <nuclide name="Fe58" ao="9.62929453556301e-06"/>
+    <nuclide name="O16" ao="0.007093565843462338"/>
+    <nuclide name="O17" ao="2.689480767883254e-06"/>
+    <nuclide name="Cr50" ao="7.588050938613292e-05"/>
+    <nuclide name="Cr52" ao="0.001463280092279561"/>
+    <nuclide name="Cr53" ao="0.00016592421626643243"/>
+    <nuclide name="Cr54" ao="4.130204941270526e-05"/>
+  </material>
+  <material id="18" name="Argento(0.8)-Indio(0.15)-Cadmio(0.05)" temperature="573.15">
+    <density value="9.9849" units="g/cm3"/>
+    <nuclide name="Ag107" ao="0.419367636804604"/>
+    <nuclide name="Ag109" ao="0.3896133173121883"/>
+    <nuclide name="In113" ao="0.006100522606126983"/>
+    <nuclide name="In115" ao="0.136401757378152"/>
+    <nuclide name="Cd106" ao="0.0006040337354416618"/>
+    <nuclide name="Cd108" ao="0.00043082888118248653"/>
+    <nuclide name="Cd110" ao="0.006050040707596404"/>
+    <nuclide name="Cd111" ao="0.006207720196767922"/>
+    <nuclide name="Cd112" ao="0.01169690709057271"/>
+    <nuclide name="Cd113" ao="0.005932144966462007"/>
+    <nuclide name="Cd114" ao="0.013950510866577948"/>
+    <nuclide name="Cd116" ao="0.0036445794543275216"/>
+  </material>
+</materials>
