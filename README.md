@@ -57,3 +57,4 @@ that a feature be added to the code, you may create an Issue on github.
 
 OpenMC is distributed under the MIT/X
 [license](https://docs.openmc.org/en/stable/license.html).
+# PRATIC-REACTOR
