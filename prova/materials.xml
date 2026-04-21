@@ -1,5 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
+  <material id="1" name="uo2_central" depletable="true" temperature="623.15">
+    <density value="10.1711" units="g/cm3"/>
+    <nuclide name="U235" ao="0.025"/>
+    <nuclide name="U234" ao="0.00021"/>
+    <nuclide name="U236" ao="0.00011"/>
+    <nuclide name="U238" ao="0.97468"/>
+    <nuclide name="O16" ao="2"/>
+  </material>
+  <material id="2" name="uo2_internal" depletable="true" temperature="623.15">
+    <density value="10.1711" units="g/cm3"/>
+    <nuclide name="U235" ao="0.035"/>
+    <nuclide name="U234" ao="0.0003"/>
+    <nuclide name="U236" ao="0.00016"/>
+    <nuclide name="U238" ao="0.96454"/>
+    <nuclide name="O16" ao="2"/>
+  </material>
   <material id="3" name="uo2_external" depletable="true" temperature="623.15">
     <density value="10.1711" units="g/cm3"/>
     <nuclide name="U235" ao="0.05"/>
@@ -8,19 +24,7 @@
     <nuclide name="U238" ao="0.94933"/>
     <nuclide name="O16" ao="2"/>
   </material>
-  <material id="6" name="gap" temperature="600">
-    <density value="0.00024044" units="atom/b-cm"/>
-    <nuclide name="He3" ao="4.8089e-10"/>
-    <nuclide name="He4" ao="0.00024044"/>
-  </material>
-  <material id="7" name="water" temperature="573.15">
-    <density value="0.72683" units="g/cm3"/>
-    <nuclide name="H1" ao="1.99968852"/>
-    <nuclide name="H2" ao="0.00031148"/>
-    <nuclide name="O16" ao="1"/>
-    <sab name="c_H_in_H2O"/>
-  </material>
-  <material id="15" name="uo2_central(0.92)-gadolinium(0.08)" depletable="true" temperature="623.15">
+  <material id="5" name="uo2_central(0.92)-gadolinium(0.08)" depletable="true" temperature="623.15">
     <density value="9.8003" units="g/cm3"/>
     <nuclide name="U235" ao="0.007317290519805263"/>
     <nuclide name="U234" ao="6.146524036636422e-05"/>
@@ -35,7 +39,19 @@
     <nuclide name="Gd158" ao="0.008653201195898503"/>
     <nuclide name="Gd160" ao="0.007615095738419534"/>
   </material>
-  <material id="16" name="zirconium(0.98115)-stagno(0.0145)-Ferro(0.0021)-Oxygen(0.00125)-cromo(0.001)" temperature="573.15">
+  <material id="6" name="gap" temperature="600">
+    <density value="0.00024044" units="atom/b-cm"/>
+    <nuclide name="He3" ao="4.8089e-10"/>
+    <nuclide name="He4" ao="0.00024044"/>
+  </material>
+  <material id="7" name="water" temperature="573.15">
+    <density value="0.72683" units="g/cm3"/>
+    <nuclide name="H1" ao="1.99968852"/>
+    <nuclide name="H2" ao="0.00031148"/>
+    <nuclide name="O16" ao="1"/>
+    <sab name="c_H_in_H2O"/>
+  </material>
+  <material id="7" name="zirconium(0.98115)-stagno(0.0145)-Ferro(0.0021)-Oxygen(0.00125)-cromo(0.001)" temperature="573.15">
     <density value="6.5215" units="g/cm3"/>
     <nuclide name="Zr90" ao="0.5024870303416937"/>
     <nuclide name="Zr91" ao="0.1095802620103752"/>
@@ -63,7 +79,7 @@
     <nuclide name="Cr53" ao="0.00016592421626643243"/>
     <nuclide name="Cr54" ao="4.130204941270526e-05"/>
   </material>
-  <material id="18" name="Argento(0.8)-Indio(0.15)-Cadmio(0.05)" temperature="573.15">
+  <material id="14" name="Argento(0.8)-Indio(0.15)-Cadmio(0.05)" temperature="573.15">
     <density value="9.9849" units="g/cm3"/>
     <nuclide name="Ag107" ao="0.419367636804604"/>
     <nuclide name="Ag109" ao="0.3896133173121883"/>
